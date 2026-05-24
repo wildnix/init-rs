@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-wildnix = { git = "https://github.com/wildnix/libwildnix" }
+wildnix = { package = "libwildnix", git = "https://github.com/wildnix/libwildnix" }
