@@ -1,9 +1,9 @@
 #![no_std]
 #![no_main]
 
-use libwildnix::*;
+use wildnix::*;
 
-#[libwildnix::main]
+#[wildnix::main]
 fn main() {
     println!("Hello, WildNIX!");
     println!("This program is running in userspace!");

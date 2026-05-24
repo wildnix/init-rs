@@ -5,3 +5,9 @@ edition = "2024"
 
 [dependencies]
 wildnix = { package = "libwildnix", git = "https://github.com/wildnix/libwildnix" }
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"

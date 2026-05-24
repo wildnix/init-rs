@@ -11,8 +11,8 @@ dependencies = [
 
 [[package]]
 name = "libwildnix"
-version = "0.1.1"
-source = "git+https://github.com/wildnix/libwildnix#c8c45459a9d1abf77d570af1922a585242ade620"
+version = "0.1.2"
+source = "git+https://github.com/wildnix/libwildnix#a553dfb2aead273da8814f6ccd0cb25e5a520b40"
 dependencies = [
  "libwildnix-macros",
 ]
